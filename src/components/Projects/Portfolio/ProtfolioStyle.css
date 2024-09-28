@@ -117,7 +117,7 @@ body {
     cursor: pointer;
   }
   .bar{
-    height: 3px;
+    height: 4px;
     width: 100%;
     background: var(--mainFontColor);
     /* margin-block: .3rem; */
@@ -127,14 +127,14 @@ body {
  .bar:first-child:is(.nav_visibile){
   rotate: -40deg;
   translate: -18% 158%;
-  width: 115%;
+  width: 117%;
  }
  .bar:nth-child(2):is(.nav_visibile){
   opacity: 0;
  }
  .bar:nth-child(3):is(.nav_visibile){
-  rotate: 47deg;
-  translate: -15% -300%;
+  rotate: 43deg;
+  translate: -17% -290%;
   width: 110%;
  }
 .change_Mood {
