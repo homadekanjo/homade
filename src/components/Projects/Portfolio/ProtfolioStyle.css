@@ -17,7 +17,7 @@ html {
   /* font-family: "Poppins", Arial, Helvetica, sans-serif; */
   font-family: "Merienda", Arial, Helvetica, sans-serif;
   --main--bg: #fff;
-  --link--transition: 0.3s linear;
+  --link--transition: 0.2s linear;
   --width--elment2: 200px;
   --main--border: 1px solid var(var(--mainFontColor));
   scroll-behavior: smooth;
@@ -934,7 +934,9 @@ textarea {
     overflow: hidden;
     width: 0;
     height: 100vh;
-    border-radius: 20px;
+    /* border-radius: 20px; */
+    transition: 100ms linear;
+    z-index: 2;
   }
   .nav_links {
     flex-direction: column;
@@ -946,6 +948,7 @@ textarea {
     height: 100vh;
     justify-content: flex-start;
     padding-block: 10px;
+    
   }
   .my_profile {
     flex-direction: column-reverse;
